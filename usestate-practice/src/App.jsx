@@ -3,10 +3,12 @@ import { useState } from "react";
 
 function App() {
   const [time, setTime] = useState("TIME");
+
   function getTime() {
     let currentTime = new Date().toLocaleTimeString();
     setTime(currentTime);
   }
+
   setInterval(getTime, 1000);
 
   return (
