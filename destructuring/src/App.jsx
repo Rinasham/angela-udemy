@@ -4,7 +4,8 @@ import cars from "./practice";
 
 function App() {
   // ============ example =============
-  // const [cat, dog] = animals;
+  const [cat, dog] = animals;
+  console.log(cat, dog);
   // //　オプジェクトを分割代入する時は'キー名'が同じでないとダメ！
   // const { name, sound } = cat;
   // // 別名をつけることが可能
